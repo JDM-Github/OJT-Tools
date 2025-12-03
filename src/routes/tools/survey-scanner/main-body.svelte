@@ -24,6 +24,8 @@
 	function deleteQuestion(idx: number) {
 		questions = questions.filter((_: any, i: number) => i !== idx);
 	}
+	
+	
 
 	function openEdit(idx: number) {
 		editIndex = idx;
