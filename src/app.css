@@ -3,6 +3,11 @@
 * {
 	user-select: none !important;
 	transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out, color 0.2s ease-in-out, translate 0.2s ease-in-out, all 0.2s ease-in-out;
+	font-family: Arial;
+}
+
+.coord-input {
+	@apply w-20 rounded border p-2 shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-200;
 }
 
 /* ::-webkit-scrollbar {
@@ -20,6 +25,14 @@
 ::-webkit-scrollbar-thumb:hover {
 	background: #08ff3e !important;
 } */
+
+:global(.swiper-slide) {
+	height: auto;
+}
+
+:global(.swiper-slide) {
+	height: auto;
+}
 
 
 .navlink {

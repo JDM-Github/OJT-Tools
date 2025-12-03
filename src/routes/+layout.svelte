@@ -1,4 +1,3 @@
-
 <script lang="ts">
 	import '../app.css';
 	let { data, children } = $props();
@@ -12,8 +11,15 @@
 
 <Toast />
 <main>
-	<div class="w-full h-[50px] bg-[#023fd8] "></div>
+	<div class="flex h-[50px] w-full items-center bg-[#023fd8] z-100">
+		<div class="mx-auto flex w-9/13 justify-end font-bold text-white">
+			CCC TOOLS IS A SET OF HANDY TOOLS CREATED TO SIMPLIFY ROUTINE WORK.
+		</div>
+	</div>
 	<Navigation />
-	<div class="w-full h-[5px] bg-gray-300 "></div>
+	<div class="h-[5px] w-full bg-gray-300"></div>
 	{@render children()}
+	
+	<div class="flex h-[100px] w-full items-center bg-[#023fd8]"></div>
+	
 </main>

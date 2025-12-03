@@ -10,3 +10,4 @@ export function load({ url }) {
 		title: record ? `${record.name} | CCC` : 'CCC',
 	};
 }
+

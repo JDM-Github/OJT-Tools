@@ -11,7 +11,7 @@
 		</div>
 
 		<ul class="text-md hidden items-center space-x-6 md:flex">
-			{#each [{ name: 'HOME', path: '/' }, { name: 'TOOLS', path: '/tools' }] as item}
+			{#each [{ name: 'HOME', path: '/' }] as item}
 				<li>
 					<a
 						href={item.path}
